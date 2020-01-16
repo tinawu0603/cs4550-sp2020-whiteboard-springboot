@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 body {
-	margin: 10% 20%;
+	margin: 5% 20%;
 }
 
 .sign-in {
@@ -34,6 +34,10 @@ h1 {
 a {
 	color: white;
 	text-decoration: underline;
+}
+
+a:hover {
+	color: rgba(195, 15, 15, 1);
 }
 
 .btn-primary {

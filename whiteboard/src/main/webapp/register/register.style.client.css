@@ -1,19 +1,20 @@
 @charset "ISO-8859-1";
 
 body {
-	margin: 10% 20%;
+	margin: 5% 20%;
 }
 
-.container {
+.register {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
 	align-self: center;
 	align-items: left;
-	background-color: rgba(132,206,235,0.6);
-	width: 75%;
+	background-color: rgba(3, 12, 84, 0.8);
+	width: 50%;
 	margin: auto;
 	border-radius: 10px;
+    color: white;
 }
 
 form {
@@ -26,12 +27,42 @@ form {
 }
 
 h1 {
-	color: #5680E9;
+	color: white;
 	background-color: transparent;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: rgba(195, 15, 15, 1);
+}
+
+.btn-primary {
+	background-color: rgba(195, 15, 15, 1);
+	color: white;
+	outline-color: rgba(195, 15, 15, 1);
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: rgba(195, 15, 15, 1);
 }
 
 button {
 	margin: 15px 0px;
+}
+
+.title {
+	background-color: transparent;
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgba(3, 12, 84, 0.8);
+	font-size: 200%;
 }
 
 .container .checkbox {
@@ -42,13 +73,17 @@ button {
 	z-index: 2;
 }
 
+label {
+    margin: 10px;
+    padding-top: 3px;
+}
+
 .container input[type="email"] {
-	margin-top: -10px;
-	margin-bottom: 10px;
+    margin: 10px;
 	border-radius: 10px;
 }
 
 .container input[type="password"] {
-	margin-top: -10px;
+    margin: 10px;
 	border-radius: 10px;
 }
