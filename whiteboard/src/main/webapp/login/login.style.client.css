@@ -4,7 +4,7 @@ body {
 	margin: 10% 20%;
 }
 
-.container {
+.sign-in {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
@@ -51,6 +51,14 @@ a {
 
 button {
 	margin: 15px 0px;
+}
+
+.title {
+	background-color: transparent;
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgba(3, 12, 84, 0.8);
+	font-size: 200%;
 }
 
 .container .checkbox {
