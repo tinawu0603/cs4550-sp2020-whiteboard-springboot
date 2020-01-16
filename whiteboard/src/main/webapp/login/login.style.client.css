@@ -10,10 +10,11 @@ body {
 	-ms-flex-align: center;
 	align-self: center;
 	align-items: left;
-	background-color: rgba(132,206,235,0.6);
-	width: 75%;
+	background-color: rgba(3, 12, 84, 0.8);
+	width: 50%;
 	margin: auto;
 	border-radius: 10px;
+	color: white;
 }
 
 form {
@@ -26,8 +27,26 @@ form {
 }
 
 h1 {
-	color: #5680E9;
+	color: white;
 	background-color: transparent;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+.btn-primary {
+	background-color: rgba(195, 15, 15, 1);
+	color: white;
+	outline-color: rgba(195, 15, 15, 1);
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: rgba(195, 15, 15, 1);
 }
 
 button {
