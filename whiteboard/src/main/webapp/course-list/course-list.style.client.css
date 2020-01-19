@@ -1,0 +1,132 @@
+body {
+    margin: 10px 20px;
+    overflow: auto;
+}
+
+a {
+	color: white;
+}
+
+/* course row styles */
+.course-row {
+    margin: 10px 20px;
+    padding: 10px;
+    background: white;
+    color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.doc-icon {
+    margin: 0 10px;
+}
+
+.btn-edit-course {
+    color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    border-color: rgba(3, 12, 84, 0.8);
+    width: 100%;
+    padding: 3px;
+}
+
+.btn-edit-course:hover, .btn-edit-course:focus, .btn-edit-course:active
+ {
+    background: transparent;
+    color: rgba(3, 12, 84, 0.8);
+}
+
+.course-info {
+    color: rgba(3, 12, 84, 0.6);
+}
+
+.btn-delete-course {
+    background: rgba(195, 15, 15, 1);
+    border-radius: 10px;
+    float: right;
+}
+
+.btn-delete-course:hover, .btn-delete-course:focus, .btn-delete-course:active
+ {
+    background: rgba(195, 15, 15, 1);
+}
+
+/* header bar styles */
+.header-bar {
+    margin: 10px 20px;
+    padding: 10px;
+    background: rgba(3, 12, 84, 0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.grid-list-view-select {
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    width: 100%;
+}
+
+.grid-list-view-select option {
+    background-color: white;
+    color: rgba(3, 12, 84, 0.8)
+}
+
+.btn-ownedby, .btn-headerbar {
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    width: 100%;
+}
+
+.btn-ownedby:hover, .btn-ownedby:focus, .btn-ownedby:active,
+.btn-headerbar:hover, .btn-headerbar:focus, .btn-headerbar:active
+ {
+    background: transparent;
+    color: white;
+}
+
+.dropdown-item {
+    background-color: white;
+    color: rgba(3, 12, 84, 0.8);
+}
+
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+    background-color: rgba(3, 12, 84, 0.8);
+    color: white;
+}
+
+/* navbar styles */
+
+.btn-hamburger {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+#new-course-input {
+    margin: 0 10px;
+}
+
+.navbar .btn-plus {
+    float: right;
+    padding: 10px;
+    background-color: rgba(195, 15, 15, 1);
+}
+
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus, .navbar-brand {
+	color: white;
+}
+
+.navbar {
+	background-color: rgba(3, 12, 84, 0.8);
+	color: white;
+	border-radius: 10px;
+    width: 100%;
+}
+
+.course-manager-title, .course-manager-title:hover, .course-manager-title:active, .course-manager-title:focus {
+	background-color: rgba(195, 15, 15, 1);
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}

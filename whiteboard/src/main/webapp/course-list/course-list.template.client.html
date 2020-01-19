@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Course Manager</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="course-list.style.client.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet" />
+
+    <link href="../css/icon.png" rel="icon" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav-fill">
+        <button type="button" class="btn-hamburger btn">
+            <img src="../css/hamburger.svg" alt="">
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="../css/icon.png" alt="">
+            Whiteboard
+        </a>
+        <a class="navbar-brand course-manager-title" href="#">
+            Course Manager
+        </a>
+        <input type="text" class="form-control" id="new-course-input" aria-describedby="widget-input"
+            placeholder="New Course Title">
+        <button type="button" class="btn-plus btn">
+            <img src="../css/plus.svg" alt="">
+        </button>
+    </nav>
+
+    <div class="form-group row header-bar">
+        <div class="col-sm-6">
+            <button class="btn btn-headerbar" type="button" id="title-filter">
+                Title
+            </button>
+        </div>
+        <div class="col-sm-2">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle btn-ownedby btn-headerbar" type="button" id="owned-by-filter"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Owned by
+                </button>
+                <div class="dropdown-menu" aria-labelledby="owned-by-filter">
+                    <a class="dropdown-item" href="#">Me</a>
+                    <a class="dropdown-item" href="#">Jack Michaud</a>
+                    <a class="dropdown-item" href="#">Jose Annunziato</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-headerbar" type="button" id="last-modified-filter">
+                Last modified
+            </button>
+        </div>
+        <div class="col-sm-1">
+            <select class="custom-select grid-list-view-select">
+                <option selected value="1">List View</option>
+                <option value="2">Grid View</option>
+            </select>
+        </div>
+        <div class="col-sm-1">
+            <button class="btn btn-headerbar" type="button">
+                Sort
+            </button>
+        </div>
+    </div>
+
+    <!-- Course rows -->
+    <div class="course-row row">
+        <div class="col-sm-5">
+            <img src="../css/doc.svg" class="doc-icon">
+            CS 4550 Web Development
+        </div>
+        <div class="col-sm-1">
+            <button class="btn btn-edit-course" type="button">
+                <img src="../css/edit.svg" class="edit-icon">
+                Edit
+            </button>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>Me</i>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>Just now</i>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-delete-course" type="button">
+                <img src="../css/x.svg">
+            </button>
+        </div>
+    </div>
+    <div class="course-row row">
+        <div class="col-sm-5">
+            <img src="../css/doc.svg" class="doc-icon">
+            CS 4400 Programming Languages
+        </div>
+        <div class="col-sm-1">
+            <button class="btn btn-edit-course" type="button">
+                <img src="../css/edit.svg" class="edit-icon">
+                Edit
+            </button>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>Me</i>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>9:20 AM</i>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-delete-course" type="button">
+                <img src="../css/x.svg">
+            </button>
+        </div>
+    </div>
+    <div class="course-row row">
+        <div class="col-sm-5">
+            <img src="../css/doc.svg" class="doc-icon">
+            CS 4500 Software Development
+        </div>
+        <div class="col-sm-1">
+            <button class="btn btn-edit-course" type="button">
+                <img src="../css/edit.svg" class="edit-icon">
+                Edit
+            </button>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>Jose Annunziato</i>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>April 19, 2018</i>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-delete-course" type="button">
+                <img src="../css/x.svg">
+            </button>
+        </div>
+    </div>
+    <div class="course-row row">
+        <div class="col-sm-5">
+            <img src="../css/doc.svg" class="doc-icon">
+            ENTR 1201 The Entrepreneurial Universe
+        </div>
+        <div class="col-sm-1">
+            <button class="btn btn-edit-course" type="button">
+                <img src="../css/edit.svg" class="edit-icon">
+                Edit
+            </button>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>Jack Michaud</i>
+        </div>
+        <div class="col-sm-2 course-info">
+            <i>Yesterday 11:03 PM</i>
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-delete-course" type="button">
+                <img src="../css/x.svg">
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
