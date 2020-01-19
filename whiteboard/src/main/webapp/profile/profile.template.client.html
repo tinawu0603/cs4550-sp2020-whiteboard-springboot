@@ -1,52 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Profile</title>
-<link
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-	rel="stylesheet"
-/>
-
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../css/styles.css" rel="stylesheet" />
+	<link href="profile.style.client.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+	<link href="../css/icon.png" rel="icon">
 </head>
+
 <body>
-	<div class="container">
-		<h1>Profile</h1>
-		<div class="row">
-			<div class="col-4">Username</div>
-			<div class="col-8">
-				<input type="text" class="form-control" />
-			</div>
+	<nav class="navbar navbar-expand-lg nav-fill">
+		<a class="navbar-brand" href="#">
+			<img src="../css/icon.png" alt="">
+			Whiteboard
+		</a>
+	</nav>
+	<div class="container alert-container">
+		<div class="alert alert-success" role="alert">
+			Profile succesfully saved.
 		</div>
-		<div class="row">
-			<div class="col-4">Password</div>
-			<div class="col-8">
-				<input class="form-control" />
+	</div>
+	<div class="container profile">
+		<form>
+			<div class="form-group row profile-title">
+				<h1>Profile</h1>
 			</div>
-		</div>
-
-
-		DOB
-		<input />
-		<br />
-		Role
-		<br />
-		<label>
-			<input type="checkbox" />
-			Tenured?
-		</label>
-
-		<br />
-		<label for="yrlsalary">Salary</label>
-		<input id="yrlsalary" min="10000" max="1000000" type="number"
-			placeholder="100000" title="Please provide your yearly salary"
-		/>
-		<br />
-		Email
-		<input placeholder="alice@wonderland.com" value="john@doe.com" />
-		<br />
-		Phone
-		<input />
+			<div class="form-group row">
+				<div class="col-sm-3">
+					<label for="username">Username</label>
+				</div>
+				<div class="col-sm-9">
+					<input type="text" class="wbdv-field wbdv-username" id="username" value="jannunzi" disabled>
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-sm-3">
+					<label for="phone">Phone</label>
+				</div>
+				<div class="col-sm-9">
+					<input type="text" class="wbdv-field" id="phone" placeholder="617-123-4567">
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-sm-3">
+					<label for="email">Email</label>
+				</div>
+				<div class="col-sm-9">
+					<input type="email" class="wbdv-field" id="email" value="jose@webdev.com"
+						placeholder="you@example.com">
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-sm-3">
+					<label for="role">Role</label>
+				</div>
+				<div class="col-sm-9">
+					<select class="custom-select role-select">
+						<option value="1">Faculty</option>
+						<option value="2">Student</option>
+						<option selected value="3">Admin</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-sm-3">
+					<label for="dob">Date of Birth</label>
+				</div>
+				<div class="col-sm-9">
+					<input type="date" class="wbdv-field" id="dob">
+				</div>
+			</div>
+			</br>
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-9">
+					<button class="btn wbdv-button btn-save" type="submit">
+						Save
+					</button>
+				</div>
+			</div>
+			</br>
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-9">
+					<a href="../login/login.template.client.html" class="btn wbdv-button btn-logout"
+						role="button">Logout</a>
+				</div>
+			</div>
+			</br>
+		</form>
 	</div>
 </body>
+
 </html>

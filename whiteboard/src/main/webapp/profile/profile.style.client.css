@@ -1,1 +1,109 @@
 @charset "ISO-8859-1";
+
+body {
+    margin: 10px 20px;
+    overflow: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile {
+    align-self: center;
+	align-items: left;
+	background-color: rgba(3, 12, 84, 0.8);
+    width: 50%;
+    margin: 10px 25%;
+	border-radius: 10px;
+    color: white;
+}
+
+.alert-container {
+    align-items: center;
+    width: 50%;
+    padding: 10px 0 0 0;
+}
+
+.alert {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 15px 10px;
+}
+
+.btn {
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-save {
+    background-color: green;
+}
+
+.btn-logout {
+    background-color: rgba(195, 15, 15, 1);
+}
+
+.btn:hover, .btn:focus, .btn:active {
+    background-color: rgba(3, 12, 84, 0.8);
+    color: white;
+}
+
+.role-select {
+    color: rgba(3, 12, 84, 0.8);
+    border-color: rgba(3, 12, 84, 0.8);
+	border-radius: 10px;
+}
+
+.widget-type-select option {
+	color: rgba(3, 12, 84, 0.8);
+    background-color: white;
+}
+
+input, select {
+    padding: 5px;
+    border-radius: 10px;
+    color: rgba(3, 12, 84, 0.8);
+    width: 100%;
+}
+
+::placeholder {
+    color: rgba(3, 12, 84, 0.8);
+}
+
+.row {
+    padding: 0 10px;
+}
+
+label {
+    font-size: 150%;
+}
+
+.form-control:disabled {
+    background-color: darkgray;
+}
+
+.title {
+	background-color: transparent;
+	margin-bottom: 20px;
+	color: rgba(3, 12, 84, 0.8);
+	font-size: 150%;
+}
+
+/* navbar styles */
+
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus, .navbar-brand {
+	color: white;
+}
+
+.navbar {
+	background-color: rgba(3, 12, 84, 0.8);
+	color: white;
+	border-radius: 10px;
+    width: 100%;
+}
