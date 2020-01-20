@@ -2,7 +2,6 @@
 
 body {
     margin: 10px 20px;
-    overflow: auto;
 }
 
 a {
@@ -12,7 +11,6 @@ a {
 
 .profile {
     align-self: center;
-	align-items: left;
 	background-color: rgba(3, 12, 84, 0.8);
     width: 50%;
     margin: 10px 25%;
@@ -106,4 +104,19 @@ label {
 	color: white;
 	border-radius: 10px;
     width: 100%;
+}
+
+/* Responsive styles */
+
+@media (max-width: 978px) {
+	body {
+        margin: 5%;
+	}
+	.profile {
+        width: 90%;
+        margin: auto;
+    }
+    .container {
+        width: 100%;
+    }
 }
