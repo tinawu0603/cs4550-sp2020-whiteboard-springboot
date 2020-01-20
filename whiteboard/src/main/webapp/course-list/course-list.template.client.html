@@ -17,27 +17,36 @@
 
 <body>
     <nav class="navbar navbar-expand-md nav-fill">
-        <a class="navbar-brand" href="#">
+        <div class="navbar-brand abs mx-auto">
             <img src="../css/icon.png" alt="">
             Whiteboard
-        </a>
-        <a class="course-manager-title" href="#">
-            Course Manager
-        </a>
+        </div>
         <button type="button" class="navbar-toggler btn-hamburger btn" data-toggle="collapse"
             data-target="#collapsingNavbarSm">
             <img src="../css/hamburger.svg" class="navbar-toggler-icon" alt="">
         </button>
         <div class="navbar-collapse collapse" id="collapsingNavbarSm">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav d-none d-lg-flex mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link course-manager-title" href="#">
+                        Course Manager
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <span>
-                        <input type="text" id="new-course-input" aria-describedby="widget-input"
+                        <input type="text" id="new-course-input" class="input-lg" aria-describedby="widget-input"
                             placeholder="New Course Title">
                         <button type="button" class="btn-plus btn">
                             <img src="../css/plus.svg" alt="">
                         </button>
                     </span>
+                </li>
+                <li class="nav-item">
+                    <a href="../profile/profile.template.client.html" class="nav-link profile-link btn btn-profile"
+                        role="button">My profile
+                    </a>
                 </li>
             </ul>
         </div>
@@ -81,29 +90,31 @@
     </div>
 
     <!-- Course rows -->
-    <div class="course-row row">
-        <div class="col-sm-10 col-lg-5">
-            <img src="../css/doc.svg" class="doc-icon">
-            CS 4550 Web Development
+    <a href="../course-editor/course-editor.template.client.html">
+        <div class="course-row row">
+            <div class="col-sm-10 col-lg-5">
+                <img src="../css/doc.svg" class="doc-icon">
+                CS 4550 Web Development
+            </div>
+            <div class="col-sm-1 d-none d-lg-flex">
+                <button class="btn btn-edit-course" type="button">
+                    <img src="../css/edit.svg" class="edit-icon">
+                    Edit
+                </button>
+            </div>
+            <div class="col-sm-2 course-info d-none d-lg-flex">
+                <i>Me</i>
+            </div>
+            <div class="col-sm-2 course-info d-none d-lg-flex">
+                <i>Just now</i>
+            </div>
+            <div class="col-sm-2">
+                <button class="btn btn-delete-course" type="button">
+                    <img src="../css/x.svg">
+                </button>
+            </div>
         </div>
-        <div class="col-sm-1 d-none d-lg-flex">
-            <button class="btn btn-edit-course" type="button">
-                <img src="../css/edit.svg" class="edit-icon">
-                Edit
-            </button>
-        </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
-            <i>Me</i>
-        </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
-            <i>Just now</i>
-        </div>
-        <div class="col-sm-2">
-            <button class="btn btn-delete-course" type="button">
-                <img src="../css/x.svg">
-            </button>
-        </div>
-    </div>
+    </a>
     <div class="course-row row">
         <div class="col-sm-10 col-lg-5">
             <img src="../css/doc.svg" class="doc-icon">

@@ -1,10 +1,13 @@
 body {
     margin: 10px 20px;
-    overflow: auto;
 }
 
 a {
-	color: white;
+    color: white;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
 }
 
 /* course row styles */
@@ -100,11 +103,33 @@ a {
 
 .btn-hamburger {
     padding: 10px;
-    margin: 0 20px;
+    z-index: 1;
 }
 
 #new-course-input {
     margin: 0 5px;
+}
+
+.nav-item {
+    margin: 10px 10px;
+}
+
+.profile-link {
+    font-size: 120%;
+}
+
+.profile-link:hover, .profile-link:active, .profile-link:focus {
+    color: white;
+}
+
+.btn-profile {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(195, 15, 15, 1);
+}
+
+.navbar-nav {
+    z-index: 1;
 }
 
 .navbar .btn-plus {
@@ -113,10 +138,10 @@ a {
     background-color: rgba(195, 15, 15, 1);
 }
 
-.navbar #new-course-input {
+#new-course-input {
     border-radius: 10px;
     width: 80%;
-    height: 80%;
+    height: 40px;
 }
 
 #new-course-input::placeholder {
@@ -144,5 +169,15 @@ a {
 @media (max-width: 768px) {
     .course-row {
         font-size: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand.abs {
+        z-index: 0;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
     }
 }
