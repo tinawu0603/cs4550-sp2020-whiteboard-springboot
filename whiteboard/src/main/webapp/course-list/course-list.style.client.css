@@ -104,13 +104,23 @@ a {
 }
 
 #new-course-input {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .navbar .btn-plus {
     float: right;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(195, 15, 15, 1);
+}
+
+.navbar #new-course-input {
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+#new-course-input::placeholder {
+    padding: 5px;
 }
 
 .navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus, .navbar-brand {
@@ -129,4 +139,10 @@ a {
 	color: white;
 	padding: 10px;
 	border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .course-row {
+        font-size: 100%;
+    }
 }
