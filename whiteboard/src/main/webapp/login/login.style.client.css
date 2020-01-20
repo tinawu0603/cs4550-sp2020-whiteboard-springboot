@@ -4,6 +4,15 @@ body {
 	margin: 5% 20%;
 }
 
+@media (max-width: 978px) {
+	body {
+		margin: 5% 5%;
+	}
+	.sign-in {
+		width: 100%;
+	}
+}
+
 .sign-in {
 	display: -ms-flexbox;
 	display: flex;
@@ -11,8 +20,6 @@ body {
 	align-self: center;
 	align-items: left;
 	background-color: rgba(3, 12, 84, 0.8);
-	width: 50%;
-	margin: auto;
 	border-radius: 10px;
 	color: white;
 }
