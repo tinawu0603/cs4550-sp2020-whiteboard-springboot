@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="register.style.client.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="../css/icon.png" rel="icon">
+</head>
+
+<body>
+    <div class="container title">
+        <h1 class="title">Whiteboard</h1>
+    </div>
+    <div class="container register">
+        <form>
+            <div class="form-group row">
+                <h1>Register</h1>
+            </div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label for="username">Username</label>
+                </div>
+                <div class="col-9">
+                    <input type="email" class="form-control wbdv-field wbdv-username" id="username"
+                        placeholder="you@example.com" required="" autofocus="">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label for="password">Password</label>
+                </div>
+                <div class="col-9">
+                    <input type="password" class="form-control wbdv-field wbdv-password" id="password"
+                        placeholder="password" required="">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label for="password-confirm">Confirm Password</label>
+                </div>
+                <div class="col-9">
+                    <input type="password" class="form-control wbdv-field wbdv-password-verify" id="confirm"
+                        placeholder="password" required="">
+                </div>
+            </div>
+            <div class="row">
+                <a href="../profile/profile.template.client.html" role="button"
+                    class="btn btn-lg btn-primary wbdv-register wbdv-button" type="submit">
+                    Register
+                </a>
+            </div>
+            <div class="row">
+                <a href="../login/login.template.client.html" class="wbdv-link wbdv-login float-right">
+                    Already have an account? Login</a>
+            </div>
+        </form>
+    </div>
+    <div class="container cancel">
+        <a href="../course-list/course-list.template.client.html" role="button"
+            class="btn btn-lg wbdv-button btn-cancel btn-block">
+            Cancel
+        </a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+body {
+    margin: 10px 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+/* course row styles */
+.course-row {
+    margin: 10px 20px;
+    padding: 10px;
+    background: white;
+    color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.doc-icon {
+    margin: 0 10px;
+}
+
+.btn-edit-course {
+    color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    border-color: rgba(3, 12, 84, 0.8);
+    width: 100%;
+    padding: 3px;
+}
+
+.btn-edit-course:hover, .btn-edit-course:focus, .btn-edit-course:active
+ {
+    background: transparent;
+    color: rgba(3, 12, 84, 0.8);
+}
+
+.course-info {
+    color: rgba(3, 12, 84, 0.6);
+}
+
+.btn-delete-course {
+    background: rgba(195, 15, 15, 1);
+    border-radius: 10px;
+    float: right;
+}
+
+.btn-delete-course:hover, .btn-delete-course:focus, .btn-delete-course:active
+ {
+    background: rgba(195, 15, 15, 1);
+}
+
+/* header bar styles */
+.header-bar {
+    margin: 10px 20px;
+    padding: 10px;
+    background: rgba(3, 12, 84, 0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.grid-list-view-select {
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    width: 100%;
+}
+
+.grid-list-view-select option {
+    background-color: white;
+    color: rgba(3, 12, 84, 0.8)
+}
+
+.btn-ownedby, .btn-headerbar {
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    width: 100%;
+}
+
+.btn-ownedby:hover, .btn-ownedby:focus, .btn-ownedby:active,
+.btn-headerbar:hover, .btn-headerbar:focus, .btn-headerbar:active
+ {
+    background: transparent;
+    color: white;
+}
+
+.dropdown-item {
+    background-color: white;
+    color: rgba(3, 12, 84, 0.8);
+}
+
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+    background-color: rgba(3, 12, 84, 0.8);
+    color: white;
+}
+
+/* navbar styles */
+
+.btn-hamburger {
+    padding: 10px;
+    z-index: 1;
+}
+
+#new-course-input {
+    margin: 0 5px;
+}
+
+.nav-item {
+    margin: 10px 10px;
+}
+
+.profile-link {
+    font-size: 120%;
+}
+
+.profile-link:hover, .profile-link:active, .profile-link:focus {
+    color: white;
+}
+
+.btn-profile {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(195, 15, 15, 1);
+}
+
+.navbar-nav {
+    z-index: 1;
+}
+
+.navbar .btn-plus {
+    float: right;
+    padding: 5px;
+    background-color: rgba(195, 15, 15, 1);
+}
+
+#new-course-input {
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+}
+
+#new-course-input::placeholder {
+    padding: 5px;
+}
+
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus, .navbar-brand {
+	color: white;
+}
+
+.navbar {
+	background-color: rgba(3, 12, 84, 0.8);
+	color: white;
+	border-radius: 10px;
+    width: 100%;
+}
+
+.course-manager-title, .course-manager-title:hover, .course-manager-title:active, .course-manager-title:focus {
+	background-color: rgba(195, 15, 15, 1);
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .course-row {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand.abs {
+        z-index: 0;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}

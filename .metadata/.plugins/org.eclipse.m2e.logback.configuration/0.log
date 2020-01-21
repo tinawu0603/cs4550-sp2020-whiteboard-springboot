@@ -1,0 +1,768 @@
+2020-01-10 12:42:58,121 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-10 12:43:07,521 [Worker-10: Auto share git projects] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2020-01-10 12:43:43,010 [Worker-2: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-10 12:43:44,338 [Worker-2: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.8.2/maven-site-plugin-3.8.2.jar
+2020-01-10 12:43:44,400 [Worker-2: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.8.2/maven-site-plugin-3.8.2.jar
+2020-01-10 12:43:45,100 [Worker-2: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:whiteboard:0.0.1-SNAPSHOT @ C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\pom.xml.
+2020-01-10 12:43:48,067 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:48,136 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:48,493 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:2.2.2.RELEASE
+2020-01-10 12:43:48,575 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.2.2.RELEASE/spring-boot-starter-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:48,669 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.2.2.RELEASE/spring-boot-starter-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:48,816 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter:2.2.2.RELEASE
+2020-01-10 12:43:48,929 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:49,106 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:49,435 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.2.2.RELEASE
+2020-01-10 12:43:49,543 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:49,791 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:49,934 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE
+2020-01-10 12:43:50,035 [Worker-2: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /whiteboard/src/main/java
+2020-01-10 12:43:50,036 [Worker-2: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /whiteboard/src/main/resources
+2020-01-10 12:43:50,046 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:50,076 [Worker-2: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /whiteboard/src/main/resources
+2020-01-10 12:43:50,140 [Worker-2: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /whiteboard/src/test/java
+2020-01-10 12:43:50,172 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.2.RELEASE/spring-boot-starter-logging-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:50,438 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-logging:2.2.2.RELEASE
+2020-01-10 12:43:50,541 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
+2020-01-10 12:43:50,632 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
+2020-01-10 12:43:51,048 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.2.3
+2020-01-10 12:43:51,140 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
+2020-01-10 12:43:51,262 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
+2020-01-10 12:43:51,486 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-core:1.2.3
+2020-01-10 12:43:51,581 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1-sources.jar
+2020-01-10 12:43:51,733 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1-sources.jar
+2020-01-10 12:43:51,892 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-to-slf4j:2.12.1
+2020-01-10 12:43:51,992 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1-sources.jar
+2020-01-10 12:43:52,048 [Worker-2: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2020-01-10 12:43:52,059 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1-sources.jar
+2020-01-10 12:43:52,220 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-api:2.12.1
+2020-01-10 12:43:52,319 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-sources.jar
+2020-01-10 12:43:52,351 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:43:52,359 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:43:52,379 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:43:52,384 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:43:52,384 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:43:52,403 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-sources.jar
+2020-01-10 12:43:52,644 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.29
+2020-01-10 12:43:52,732 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar
+2020-01-10 12:43:53,056 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar
+2020-01-10 12:43:53,425 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.annotation:jakarta.annotation-api:1.3.5
+2020-01-10 12:43:53,510 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25-sources.jar
+2020-01-10 12:43:53,836 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25-sources.jar
+2020-01-10 12:43:54,222 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:43:54,225 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:43:54,226 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:43:54,231 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:43:54,232 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:43:54,266 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.yaml:snakeyaml:1.25
+2020-01-10 12:43:54,356 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.2.2.RELEASE/spring-boot-starter-json-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:54,427 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.2.2.RELEASE/spring-boot-starter-json-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:54,644 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:2.2.2.RELEASE
+2020-01-10 12:43:54,758 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar
+2020-01-10 12:43:54,919 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar
+2020-01-10 12:43:55,184 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.10.1
+2020-01-10 12:43:55,263 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1-sources.jar
+2020-01-10 12:43:55,305 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1-sources.jar
+2020-01-10 12:43:55,383 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.10.1
+2020-01-10 12:43:55,461 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1-sources.jar
+2020-01-10 12:43:55,537 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1-sources.jar
+2020-01-10 12:43:55,616 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.10.1
+2020-01-10 12:43:55,704 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1-sources.jar
+2020-01-10 12:43:55,850 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1-sources.jar
+2020-01-10 12:43:55,945 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1
+2020-01-10 12:43:56,026 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1-sources.jar
+2020-01-10 12:43:56,077 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1-sources.jar
+2020-01-10 12:43:56,226 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1
+2020-01-10 12:43:56,311 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1-sources.jar
+2020-01-10 12:43:56,377 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1-sources.jar
+2020-01-10 12:43:56,482 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.10.1
+2020-01-10 12:43:56,581 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.2.2.RELEASE/spring-boot-starter-tomcat-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:56,629 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.2.2.RELEASE/spring-boot-starter-tomcat-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:56,744 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:2.2.2.RELEASE
+2020-01-10 12:43:56,847 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar
+2020-01-10 12:43:57,231 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar
+2020-01-10 12:43:57,327 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:9.0.29
+2020-01-10 12:43:57,426 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.29/tomcat-embed-el-9.0.29-sources.jar
+2020-01-10 12:43:57,475 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.29/tomcat-embed-el-9.0.29-sources.jar
+2020-01-10 12:43:57,640 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:9.0.29
+2020-01-10 12:43:57,715 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.29/tomcat-embed-websocket-9.0.29-sources.jar
+2020-01-10 12:43:57,771 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.29/tomcat-embed-websocket-9.0.29-sources.jar
+2020-01-10 12:43:57,851 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:9.0.29
+2020-01-10 12:43:57,930 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.2.2.RELEASE/spring-boot-starter-validation-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:57,966 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.2.2.RELEASE/spring-boot-starter-validation-2.2.2.RELEASE-sources.jar
+2020-01-10 12:43:58,047 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:2.2.2.RELEASE
+2020-01-10 12:43:58,133 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.1/jakarta.validation-api-2.0.1-sources.jar
+2020-01-10 12:43:58,361 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.1/jakarta.validation-api-2.0.1-sources.jar
+2020-01-10 12:43:59,507 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.validation:jakarta.validation-api:2.0.1
+2020-01-10 12:43:59,609 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final-sources.jar
+2020-01-10 12:43:59,904 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final-sources.jar
+2020-01-10 12:43:59,994 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.0.18.Final
+2020-01-10 12:44:00,075 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final-sources.jar
+2020-01-10 12:44:00,295 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final-sources.jar
+2020-01-10 12:44:00,378 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.4.1.Final
+2020-01-10 12:44:00,468 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2020-01-10 12:44:00,523 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2020-01-10 12:44:00,623 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.5.1
+2020-01-10 12:44:00,704 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:00,838 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:00,920 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.2.2.RELEASE
+2020-01-10 12:44:01,007 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:01,119 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:01,228 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.2.2.RELEASE
+2020-01-10 12:44:01,307 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:01,422 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:01,621 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.2.2.RELEASE
+2020-01-10 12:44:01,704 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:01,786 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:01,855 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.2.2.RELEASE
+2020-01-10 12:44:01,934 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:02,072 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:02,132 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.2.2.RELEASE
+2020-01-10 12:44:02,216 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:02,297 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.2.2.RELEASE/spring-expression-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:02,393 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.2.2.RELEASE
+2020-01-10 12:44:02,484 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.2.RELEASE/spring-boot-starter-test-2.2.2.RELEASE-sources.jar
+2020-01-10 12:44:02,542 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.2.RELEASE/spring-boot-starter-test-2.2.2.RELEASE-sources.jar
+2020-01-10 12:44:02,728 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-test:2.2.2.RELEASE
+2020-01-10 12:44:02,844 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.2.2.RELEASE/spring-boot-test-2.2.2.RELEASE-sources.jar
+2020-01-10 12:44:02,909 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.2.2.RELEASE/spring-boot-test-2.2.2.RELEASE-sources.jar
+2020-01-10 12:44:03,023 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.2.2.RELEASE
+2020-01-10 12:44:03,109 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.2.RELEASE/spring-boot-test-autoconfigure-2.2.2.RELEASE-sources.jar
+2020-01-10 12:44:03,173 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.2.RELEASE/spring-boot-test-autoconfigure-2.2.2.RELEASE-sources.jar
+2020-01-10 12:44:03,361 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.2.2.RELEASE
+2020-01-10 12:44:03,456 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0-sources.jar
+2020-01-10 12:44:03,550 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0-sources.jar
+2020-01-10 12:44:03,680 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jayway.jsonpath:json-path:2.4.0
+2020-01-10 12:44:03,768 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3-sources.jar
+2020-01-10 12:44:03,801 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3-sources.jar
+2020-01-10 12:44:03,988 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.minidev:json-smart:2.3
+2020-01-10 12:44:04,080 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2-sources.jar
+2020-01-10 12:44:04,186 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2-sources.jar
+2020-01-10 12:44:04,272 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.minidev:accessors-smart:1.2
+2020-01-10 12:44:04,361 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar
+2020-01-10 12:44:04,473 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar
+2020-01-10 12:44:04,594 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:5.0.4
+2020-01-10 12:44:04,676 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29-sources.jar
+2020-01-10 12:44:04,723 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29-sources.jar
+2020-01-10 12:44:04,806 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.29
+2020-01-10 12:44:04,890 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar
+2020-01-10 12:44:04,946 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar
+2020-01-10 12:44:05,055 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.xml.bind:jakarta.xml.bind-api:2.3.2
+2020-01-10 12:44:05,132 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-sources.jar
+2020-01-10 12:44:05,317 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-sources.jar
+2020-01-10 12:44:05,407 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.activation:jakarta.activation-api:1.2.1
+2020-01-10 12:44:05,489 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.5.2/junit-jupiter-5.5.2-sources.jar
+2020-01-10 12:44:05,530 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.5.2/junit-jupiter-5.5.2-sources.jar
+2020-01-10 12:44:05,650 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter:5.5.2
+2020-01-10 12:44:05,729 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2-sources.jar
+2020-01-10 12:44:05,791 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2-sources.jar
+2020-01-10 12:44:05,869 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.5.2
+2020-01-10 12:44:05,962 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar
+2020-01-10 12:44:05,998 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar
+2020-01-10 12:44:06,109 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apiguardian:apiguardian-api:1.1.0
+2020-01-10 12:44:06,201 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2020-01-10 12:44:06,260 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2020-01-10 12:44:06,394 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.2.0
+2020-01-10 12:44:06,474 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2-sources.jar
+2020-01-10 12:44:06,539 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2-sources.jar
+2020-01-10 12:44:06,668 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.5.2
+2020-01-10 12:44:06,754 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2-sources.jar
+2020-01-10 12:44:06,821 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2-sources.jar
+2020-01-10 12:44:06,924 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-params:5.5.2
+2020-01-10 12:44:07,004 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar
+2020-01-10 12:44:07,056 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2-sources.jar
+2020-01-10 12:44:07,171 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.5.2
+2020-01-10 12:44:07,256 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2-sources.jar
+2020-01-10 12:44:07,319 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2-sources.jar
+2020-01-10 12:44:07,425 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.5.2
+2020-01-10 12:44:07,509 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0-sources.jar
+2020-01-10 12:44:07,586 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0-sources.jar
+2020-01-10 12:44:07,752 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-junit-jupiter:3.1.0
+2020-01-10 12:44:07,851 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2-sources.jar
+2020-01-10 12:44:08,021 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2-sources.jar
+2020-01-10 12:44:08,148 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.assertj:assertj-core:3.13.2
+2020-01-10 12:44:08,238 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar
+2020-01-10 12:44:08,317 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar
+2020-01-10 12:44:08,417 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest:2.1
+2020-01-10 12:44:08,500 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0-sources.jar
+2020-01-10 12:44:08,613 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0-sources.jar
+2020-01-10 12:44:08,761 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-core:3.1.0
+2020-01-10 12:44:08,886 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.4/byte-buddy-1.10.4-sources.jar
+2020-01-10 12:44:08,961 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.4/byte-buddy-1.10.4-sources.jar
+2020-01-10 12:44:09,209 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.10.4
+2020-01-10 12:44:09,290 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.4/byte-buddy-agent-1.10.4-sources.jar
+2020-01-10 12:44:09,361 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.4/byte-buddy-agent-1.10.4-sources.jar
+2020-01-10 12:44:09,457 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.10.4
+2020-01-10 12:44:09,536 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar
+2020-01-10 12:44:09,573 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar
+2020-01-10 12:44:09,656 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.objenesis:objenesis:2.6
+2020-01-10 12:44:09,738 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar
+2020-01-10 12:44:09,890 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar
+2020-01-10 12:44:09,983 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.skyscreamer:jsonassert:1.5.0
+2020-01-10 12:44:10,074 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar
+2020-01-10 12:44:10,110 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar
+2020-01-10 12:44:10,208 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+2020-01-10 12:44:10,335 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:10,432 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:10,554 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.2.2.RELEASE
+2020-01-10 12:44:10,633 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:10,762 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.2.2.RELEASE/spring-jcl-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:10,862 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.2.2.RELEASE
+2020-01-10 12:44:10,947 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:11,045 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar
+2020-01-10 12:44:11,121 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.2.2.RELEASE
+2020-01-10 12:44:11,206 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.6.3/xmlunit-core-2.6.3-sources.jar
+2020-01-10 12:44:11,279 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.6.3/xmlunit-core-2.6.3-sources.jar
+2020-01-10 12:44:11,374 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xmlunit:xmlunit-core:2.6.3
+2020-01-10 12:44:11,381 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-core:1.2.3
+2020-01-10 12:44:11,388 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-to-slf4j:2.12.1
+2020-01-10 12:44:11,395 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-api:2.12.1
+2020-01-10 12:44:11,402 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.29
+2020-01-10 12:44:11,409 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.annotation:jakarta.annotation-api:1.3.5
+2020-01-10 12:44:11,417 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.yaml:snakeyaml:1.25
+2020-01-10 12:44:11,424 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:2.2.2.RELEASE
+2020-01-10 12:44:11,430 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.10.1
+2020-01-10 12:44:11,438 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.10.1
+2020-01-10 12:44:11,445 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.10.1
+2020-01-10 12:44:11,453 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1
+2020-01-10 12:44:11,460 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1
+2020-01-10 12:44:11,467 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.10.1
+2020-01-10 12:44:11,473 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:2.2.2.RELEASE
+2020-01-10 12:44:11,481 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:9.0.29
+2020-01-10 12:44:11,490 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:9.0.29
+2020-01-10 12:44:11,497 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:9.0.29
+2020-01-10 12:44:11,505 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:2.2.2.RELEASE
+2020-01-10 12:44:11,511 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.validation:jakarta.validation-api:2.0.1
+2020-01-10 12:44:11,519 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.0.18.Final
+2020-01-10 12:44:11,526 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.4.1.Final
+2020-01-10 12:44:11,533 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.5.1
+2020-01-10 12:44:11,540 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.2.2.RELEASE
+2020-01-10 12:44:11,546 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.2.2.RELEASE
+2020-01-10 12:44:11,555 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.2.2.RELEASE
+2020-01-10 12:44:11,561 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.2.2.RELEASE
+2020-01-10 12:44:11,569 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.2.2.RELEASE
+2020-01-10 12:44:11,576 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.2.2.RELEASE
+2020-01-10 12:44:11,583 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-test:2.2.2.RELEASE
+2020-01-10 12:44:11,590 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.2.2.RELEASE
+2020-01-10 12:44:11,598 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.2.2.RELEASE
+2020-01-10 12:44:11,604 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jayway.jsonpath:json-path:2.4.0
+2020-01-10 12:44:11,611 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.minidev:json-smart:2.3
+2020-01-10 12:44:11,617 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.minidev:accessors-smart:1.2
+2020-01-10 12:44:11,624 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:5.0.4
+2020-01-10 12:44:11,632 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.29
+2020-01-10 12:44:11,639 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.xml.bind:jakarta.xml.bind-api:2.3.2
+2020-01-10 12:44:11,647 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.activation:jakarta.activation-api:1.2.1
+2020-01-10 12:44:11,657 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter:5.5.2
+2020-01-10 12:44:11,667 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.5.2
+2020-01-10 12:44:11,675 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apiguardian:apiguardian-api:1.1.0
+2020-01-10 12:44:11,684 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.2.0
+2020-01-10 12:44:11,692 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.5.2
+2020-01-10 12:44:11,700 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-params:5.5.2
+2020-01-10 12:44:11,708 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.5.2
+2020-01-10 12:44:11,717 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.5.2
+2020-01-10 12:44:11,725 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-junit-jupiter:3.1.0
+2020-01-10 12:44:11,735 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.assertj:assertj-core:3.13.2
+2020-01-10 12:44:11,742 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest:2.1
+2020-01-10 12:44:11,750 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-core:3.1.0
+2020-01-10 12:44:11,757 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.10.4
+2020-01-10 12:44:11,766 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.10.4
+2020-01-10 12:44:11,774 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.objenesis:objenesis:2.6
+2020-01-10 12:44:11,782 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.skyscreamer:jsonassert:1.5.0
+2020-01-10 12:44:11,791 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+2020-01-10 12:44:11,800 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.2.2.RELEASE
+2020-01-10 12:44:11,809 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.2.2.RELEASE
+2020-01-10 12:44:11,817 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.2.2.RELEASE
+2020-01-10 12:44:11,827 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xmlunit:xmlunit-core:2.6.3
+2020-01-10 12:44:12,149 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:44:12,149 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:44:12,150 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:44:12,152 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:44:12,152 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:48:17,575 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:48:17,577 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:48:17,579 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:48:17,581 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:48:17,581 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:48:49,348 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:48:49,350 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:48:49,352 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:48:49,354 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:48:49,354 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:50:29,642 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:50:29,643 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:50:29,643 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:50:29,645 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:50:29,646 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:50:34,889 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:50:34,891 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:50:34,893 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:50:34,895 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:50:34,895 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:50:37,240 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:50:37,242 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:50:37,244 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:50:37,247 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:50:37,248 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:51:03,183 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:51:03,183 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:51:03,183 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:51:03,186 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:51:03,186 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:51:18,960 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:51:18,960 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:51:18,961 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:51:18,963 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:51:18,963 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:53:01,632 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:01,632 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:01,632 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:01,634 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:01,634 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:53:04,124 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:04,124 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:04,125 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:04,129 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:04,129 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:53:05,888 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:05,889 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:05,889 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:05,892 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:05,892 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:53:13,473 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:13,473 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:13,473 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:13,476 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:13,476 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:53:16,816 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:16,816 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:16,816 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:53:16,818 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:53:16,819 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:54:54,079 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:54:54,079 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:54:54,079 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:54:54,083 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:54:54,083 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:55:05,452 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:55:05,453 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:55:05,454 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:55:05,457 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:55:05,458 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:55:27,216 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:55:27,217 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:55:27,217 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:55:27,219 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:55:27,219 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:56:55,888 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:56:55,888 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:56:55,889 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:56:55,891 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:56:55,891 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:56:58,764 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:56:58,764 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:56:58,764 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:56:58,766 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:56:58,766 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:57:21,582 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:57:21,582 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:57:21,582 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:57:21,584 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:57:21,584 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 12:57:34,718 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:57:34,719 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:57:34,719 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 12:57:34,721 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:57:34,721 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:04:27,816 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-10 14:04:29,536 [Worker-3: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2020-01-10 14:04:46,352 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:04:46,360 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 14:04:46,375 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:04:46,378 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:04:46,378 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:04:48,196 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:04:48,198 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:04:48,199 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:04:48,202 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:04:48,202 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:05:55,239 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:05:55,241 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:05:55,241 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:05:55,245 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:05:55,246 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:06:01,552 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:06:01,552 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:06:01,552 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:06:01,554 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:06:01,555 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:10:20,797 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:20,801 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 14:10:20,804 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:10:20,808 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:20,808 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:10:20,995 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:20,996 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:10:20,996 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:10:20,998 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:20,998 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:10:55,863 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:55,863 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:10:55,863 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:10:55,865 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:55,865 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:13:43,021 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:13:43,023 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:13:43,023 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:13:43,029 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:13:43,029 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-10 14:20:57,633 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-10 14:21:00,182 [Worker-6: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2020-01-10 14:50:22,291 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:50:22,298 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 14:50:22,314 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-10 14:50:22,316 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:50:22,316 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-11 12:22:27,590 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-11 12:22:30,360 [Worker-6: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2020-01-11 12:24:43,272 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 12:24:43,281 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 12:24:43,305 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-11 12:24:43,310 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 12:24:43,311 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-11 12:25:29,795 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 12:25:29,798 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-11 12:25:29,798 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-11 12:25:29,803 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 12:25:29,803 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-11 12:50:50,020 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 12:50:50,021 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-11 12:50:50,021 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-11 12:50:50,024 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 12:50:50,024 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-13 10:12:18,125 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-13 10:12:18,127 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-13 10:12:18,128 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-13 10:12:18,133 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-13 10:12:18,134 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:20:27,691 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-15 16:20:30,465 [Worker-6: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2020-01-15 16:21:07,841 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:21:07,860 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 16:21:07,908 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:21:07,919 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:21:07,921 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:21:35,254 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:21:35,257 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:21:35,258 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:21:35,262 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:21:35,263 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:21:41,605 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:21:41,606 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:21:41,607 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:21:41,613 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:21:41,614 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:22:32,477 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:22:32,478 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:22:32,479 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:22:32,486 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:22:32,486 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:23:05,662 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:23:05,663 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:23:05,663 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:23:05,666 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:23:05,666 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:23:54,664 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:23:54,668 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-15 16:23:54,670 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:23:54,673 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:23:54,673 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:24:56,006 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:24:56,006 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:24:56,006 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:24:56,008 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:24:56,008 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:25:30,067 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:30,068 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:30,069 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:30,082 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:30,083 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:25:31,900 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:31,901 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:31,901 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:31,906 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:31,907 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:25:41,685 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:41,685 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:41,686 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:41,691 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:41,691 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:25:44,793 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:44,793 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:44,794 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:44,796 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:44,797 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:25:53,149 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:53,150 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:53,151 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:25:53,154 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:25:53,154 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:33:16,903 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:33:16,904 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:33:16,904 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:33:16,906 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:33:16,907 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:53:41,123 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:53:41,123 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:53:41,124 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:53:41,128 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:53:41,128 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:53:49,138 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:53:49,138 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:53:49,140 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:53:49,141 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:53:49,141 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:53:58,764 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:53:58,764 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:53:58,764 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:53:58,772 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:53:58,772 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:54:11,996 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:54:11,997 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:54:11,997 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:54:12,000 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:54:12,000 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:55:48,597 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:55:48,598 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:55:48,599 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:55:48,603 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:55:48,604 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 16:56:39,709 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:56:39,710 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:56:39,710 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 16:56:39,713 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 16:56:39,714 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:10:06,320 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:10:06,321 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:10:06,321 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:10:06,325 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:10:06,325 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:10:10,034 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:10:10,035 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:10:10,036 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:10:10,042 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:10:10,043 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:15:50,004 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:15:50,005 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:15:50,006 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:15:50,011 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:15:50,011 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:17:42,799 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:17:42,800 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:17:42,800 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:17:42,801 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:17:42,802 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:18:06,244 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:18:06,244 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:18:06,245 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:18:06,246 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:18:06,247 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:18:14,931 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:18:14,931 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:18:14,931 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:18:14,935 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:18:14,936 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:20:51,409 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:20:51,410 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:20:51,411 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:20:51,414 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:20:51,414 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:20:53,268 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:20:53,268 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:20:53,268 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:20:53,271 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:20:53,271 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:20:56,109 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:20:56,109 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:20:56,110 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:20:56,114 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:20:56,114 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:21:16,113 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:21:16,114 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:21:16,115 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:21:16,121 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:21:16,121 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:21:36,577 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:21:36,642 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:21:36,643 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:21:36,644 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:21:36,644 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:22:54,880 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:22:54,882 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:22:54,882 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:22:54,885 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:22:54,885 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:25:37,122 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:25:37,123 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:25:37,124 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:25:37,131 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:25:37,131 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:25:39,642 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:25:39,643 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:25:39,643 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:25:39,645 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:25:39,645 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:26:41,457 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:26:41,458 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:26:41,458 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:26:41,461 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:26:41,461 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:27:17,814 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:27:17,815 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:27:17,815 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:27:17,817 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:27:17,817 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:27:23,426 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:27:23,427 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:27:23,428 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:27:23,433 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:27:23,433 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:27:29,670 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:27:29,672 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:27:29,672 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:27:29,675 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:27:29,675 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:29:24,883 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:29:24,885 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:29:24,886 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:29:24,892 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:29:24,893 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:29:59,775 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:29:59,775 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:29:59,775 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:29:59,777 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:29:59,777 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:30:37,967 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:30:37,967 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:30:37,968 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:30:37,970 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:30:37,971 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:31:39,589 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:31:39,589 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:31:39,589 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:31:39,592 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:31:39,593 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:31:47,320 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:31:47,321 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:31:47,321 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:31:47,322 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:31:47,322 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:31:51,643 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:31:51,643 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:31:51,644 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:31:51,647 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:31:51,648 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:34:27,282 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:34:27,283 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:34:27,284 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:34:27,287 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:34:27,288 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:36:37,357 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:36:37,357 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:36:37,358 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:36:37,363 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:36:37,364 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 17:36:39,252 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:36:39,253 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:36:39,254 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 17:36:39,258 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 17:36:39,258 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 19:52:57,802 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:52:57,802 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:52:57,802 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:52:57,805 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:52:57,805 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 19:52:58,864 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:52:58,864 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:52:58,864 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:52:58,867 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:52:58,867 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 19:58:48,982 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:58:48,983 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:58:48,983 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:58:48,986 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:58:48,987 [Worker-74: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 19:59:11,871 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:59:11,872 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:59:11,875 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 19:59:11,880 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 19:59:11,880 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 20:53:11,872 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 20:53:11,873 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 20:53:11,873 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 20:53:11,877 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 20:53:11,878 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 20:53:12,926 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 20:53:12,927 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 20:53:12,927 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 20:53:12,932 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 20:53:12,933 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 21:40:06,952 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 21:40:06,953 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 21:40:06,954 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 21:40:06,958 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 21:40:06,959 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-15 21:40:07,987 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 21:40:07,987 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 21:40:07,988 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-15 21:40:07,991 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-15 21:40:07,991 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-16 08:15:49,583 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 08:15:49,585 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 08:15:49,586 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 08:15:49,598 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 08:15:49,599 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-16 08:22:22,277 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 08:22:22,278 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 08:22:22,278 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 08:22:22,280 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 08:22:22,280 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-16 08:22:24,037 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 08:22:24,037 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 08:22:24,038 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-16 08:22:24,040 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-16 08:22:24,040 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-18 20:18:27,305 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-18 20:18:27,308 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-18 20:18:27,313 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-18 20:18:27,321 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-18 20:18:27,321 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-18 20:18:27,501 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-18 20:18:27,502 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-18 20:18:27,503 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-18 20:18:27,506 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-18 20:18:27,508 [Worker-574: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-19 01:11:27,422 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-19 01:11:27,422 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-19 01:11:27,422 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-19 01:11:27,424 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-19 01:11:27,424 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-20 00:00:24,017 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 00:00:24,018 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 00:00:24,018 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 00:00:24,022 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 00:00:24,022 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-20 15:58:27,412 [Worker-1374: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 15:58:27,413 [Worker-1374: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 15:58:27,414 [Worker-1374: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 15:58:27,417 [Worker-1374: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 15:58:27,417 [Worker-1374: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-20 16:30:23,471 [Worker-1828: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 16:30:23,473 [Worker-1828: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 16:30:23,474 [Worker-1828: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 16:30:23,482 [Worker-1828: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 16:30:23,482 [Worker-1828: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
+2020-01-20 19:38:18,035 [Worker-1901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 19:38:18,036 [Worker-1901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 19:38:18,037 [Worker-1901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-20 19:38:18,041 [Worker-1901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-20 19:38:18,041 [Worker-1901: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\TinaW\Documents\GitHub\cs4550-sp2020-whiteboard-springboot\whiteboard\src\test\resources
