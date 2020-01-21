@@ -19,7 +19,7 @@
 		</a>
 	</nav>
 	<div class="container alert-container">
-		<div class="alert alert-success" role="alert">
+		<div class="alert alert-success wbdv-message" role="alert">
 			Profile succesfully saved.
 		</div>
 	</div>
@@ -41,7 +41,7 @@
 					<label for="phone">Phone</label>
 				</div>
 				<div class="col-sm-9">
-					<input type="text" class="wbdv-field" id="phone" placeholder="617-123-4567">
+					<input type="text" class="wbdv-field wbdv-phone" id="phone" placeholder="617-123-4567">
 				</div>
 			</div>
 			<div class="form-group row">
@@ -49,7 +49,7 @@
 					<label for="email">Email</label>
 				</div>
 				<div class="col-sm-9">
-					<input type="email" class="wbdv-field" id="email" value="jose@webdev.com"
+					<input type="email" class="wbdv-field wbdv-email" id="email" value="jose@webdev.com"
 						placeholder="you@example.com">
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 					<label for="role">Role</label>
 				</div>
 				<div class="col-sm-9">
-					<select class="custom-select role-select">
+					<select class="custom-select role-select wbdv-field wbdv-role">
 						<option value="1">Faculty</option>
 						<option value="2">Student</option>
 						<option selected value="3">Admin</option>
@@ -70,14 +70,14 @@
 					<label for="dob">Date of Birth</label>
 				</div>
 				<div class="col-sm-9">
-					<input type="date" class="wbdv-field" id="dob">
+					<input type="date" class="wbdv-field wbdv-dob" id="dob">
 				</div>
 			</div>
 			</br>
 			<div class="row">
 				<div class="col-sm-3"></div>
 				<div class="col-sm-9">
-					<button class="btn wbdv-button btn-save" type="submit">
+					<button class="btn wbdv-button btn-save wbdv-update" type="submit">
 						Save
 					</button>
 				</div>
@@ -86,8 +86,8 @@
 			<div class="row">
 				<div class="col-sm-3"></div>
 				<div class="col-sm-9">
-					<a href="../course-list/course-list.template.client.html" class="btn wbdv-button btn-logout"
-						role="button">Logout</a>
+					<a href="../course-list/course-list.template.client.html"
+						class="btn wbdv-button btn-logout wbdv-logout" role="button">Logout</a>
 				</div>
 			</div>
 			</br>
