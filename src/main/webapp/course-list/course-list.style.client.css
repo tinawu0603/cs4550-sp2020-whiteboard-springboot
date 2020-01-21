@@ -114,15 +114,16 @@ a:hover, a:focus, a:active {
     margin: 10px 10px;
 }
 
-.profile-link {
+.profile-link, .login-link {
     font-size: 120%;
 }
 
-.profile-link:hover, .profile-link:active, .profile-link:focus {
+.profile-link:hover, .profile-link:active, .profile-link:focus,
+.btn-login:hover, .btn-login:active, .btn-login:focus {
     color: white;
 }
 
-.btn-profile {
+.btn-profile, .btn-login {
     color: white;
     border-radius: 10px;
     background-color: rgba(195, 15, 15, 1);
