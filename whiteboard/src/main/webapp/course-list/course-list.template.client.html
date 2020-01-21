@@ -21,14 +21,14 @@
             <img src="../css/icon.png" alt="">
             Whiteboard
         </div>
-        <button type="button" class="navbar-toggler btn-hamburger btn" data-toggle="collapse"
+        <button type="button" class="navbar-toggler btn-hamburger wbdv-field wbdv-hamburger btn" data-toggle="collapse"
             data-target="#collapsingNavbarSm">
             <img src="../css/hamburger.svg" class="navbar-toggler-icon" alt="">
         </button>
         <div class="navbar-collapse collapse" id="collapsingNavbarSm">
             <ul class="navbar-nav d-none d-lg-flex mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link course-manager-title" href="#">
+                    <a class="nav-link course-manager-title wbdv-label wbdv-course-manager" href="#">
                         Course Manager
                     </a>
                 </li>
@@ -36,9 +36,9 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <span>
-                        <input type="text" id="new-course-input" class="input-lg" aria-describedby="widget-input"
-                            placeholder="New Course Title">
-                        <button type="button" class="btn-plus btn">
+                        <input type="text" id="new-course-input" class="input-lg wbdv-field wbdv-new-course"
+                            aria-describedby="widget-input" placeholder="New Course Title">
+                        <button type="button" class="btn-plus btn wbdv-button wbdv-add-course">
                             <img src="../css/plus.svg" alt="">
                         </button>
                     </span>
@@ -54,14 +54,14 @@
 
     <div class="form-group row header-bar d-none d-lg-flex">
         <div class="col-sm-6">
-            <button class="btn btn-headerbar" type="button" id="title-filter">
+            <button class="btn btn-headerbar wbdv-header wbdv-title" type="button" id="title-filter">
                 Title
             </button>
         </div>
         <div class="col-sm-2">
             <div class="dropdown">
-                <button class="btn dropdown-toggle btn-ownedby btn-headerbar" type="button" id="owned-by-filter"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn dropdown-toggle btn-ownedby btn-headerbar wbdv-header wbdv-owner" type="button"
+                    id="owned-by-filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Owned by
                 </button>
                 <div class="dropdown-menu" aria-labelledby="owned-by-filter">
@@ -72,18 +72,18 @@
             </div>
         </div>
         <div class="col-sm-2">
-            <button class="btn btn-headerbar" type="button" id="last-modified-filter">
+            <button class="btn btn-headerbar wbdv-header wbdv-last-modified" type="button" id="last-modified-filter">
                 Last modified
             </button>
         </div>
         <div class="col-sm-1">
-            <select class="custom-select grid-list-view-select">
+            <select class="custom-select grid-list-view-select wbdv-button wbdv-grid-layout wbdv-list-layout">
                 <option selected value="1">List</option>
                 <option value="2">Grid</option>
             </select>
         </div>
         <div class="col-sm-1">
-            <button class="btn btn-headerbar" type="button">
+            <button class="btn btn-headerbar wbdv-header wbdv-sort" type="button">
                 Sort
             </button>
         </div>
@@ -91,9 +91,9 @@
 
     <!-- Course rows -->
     <a href="../course-editor/course-editor.template.client.html">
-        <div class="course-row row">
-            <div class="col-sm-10 col-lg-5">
-                <img src="../css/doc.svg" class="doc-icon">
+        <div class="course-row row wbdv-row wbdv-course">
+            <div class="col-sm-10 col-lg-5 wbdv-row wbdv-title">
+                <img src="../css/doc.svg" class="doc-icon wbdv-row wbdv-icon">
                 CS 4550 Web Development
             </div>
             <div class="col-sm-1 d-none d-lg-flex">
@@ -102,22 +102,22 @@
                     Edit
                 </button>
             </div>
-            <div class="col-sm-2 course-info d-none d-lg-flex">
+            <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-owner">
                 <i>Me</i>
             </div>
-            <div class="col-sm-2 course-info d-none d-lg-flex">
+            <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-modified-date">
                 <i>Just now</i>
             </div>
             <div class="col-sm-2">
-                <button class="btn btn-delete-course" type="button">
+                <button class="btn btn-delete-course wbdv-row wbdv-button wbdv-delete" type="button">
                     <img src="../css/x.svg">
                 </button>
             </div>
         </div>
     </a>
-    <div class="course-row row">
-        <div class="col-sm-10 col-lg-5">
-            <img src="../css/doc.svg" class="doc-icon">
+    <div class="course-row row wbdv-row wbdv-course">
+        <div class="col-sm-10 col-lg-5 wbdv-row wbdv-title">
+            <img src="../css/doc.svg" class="doc-icon wbdv-row wbdv-icon">
             CS 4400 Programming Languages
         </div>
         <div class="col-sm-1 d-none d-lg-flex">
@@ -126,21 +126,21 @@
                 Edit
             </button>
         </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
+        <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-owner">
             <i>Me</i>
         </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
+        <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-modified-date">
             <i>9:20 AM</i>
         </div>
         <div class="col-sm-2">
-            <button class="btn btn-delete-course" type="button">
+            <button class="btn btn-delete-course wbdv-row wbdv-button wbdv-delete" type="button">
                 <img src="../css/x.svg">
             </button>
         </div>
     </div>
-    <div class="course-row row">
-        <div class="col-sm-10 col-lg-5">
-            <img src="../css/doc.svg" class="doc-icon">
+    <div class="course-row row wbdv-row wbdv-course">
+        <div class="col-sm-10 col-lg-5 wbdv-row wbdv-title">
+            <img src="../css/doc.svg" class="doc-icon wbdv-row wbdv-icon">
             CS 4500 Software Development
         </div>
         <div class="col-sm-1 d-none d-lg-flex">
@@ -149,21 +149,21 @@
                 Edit
             </button>
         </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
+        <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-owner">
             <i>Jose Annunziato</i>
         </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
+        <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-modified-date">
             <i>April 19, 2018</i>
         </div>
         <div class="col-sm-2">
-            <button class="btn btn-delete-course" type="button">
+            <button class="btn btn-delete-course wbdv-row wbdv-button wbdv-delete" type="button">
                 <img src="../css/x.svg">
             </button>
         </div>
     </div>
-    <div class="course-row row">
-        <div class="col-sm-10 col-lg-5">
-            <img src="../css/doc.svg" class="doc-icon">
+    <div class="course-row row wbdv-row wbdv-course">
+        <div class="col-sm-10 col-lg-5 wbdv-row wbdv-title">
+            <img src="../css/doc.svg" class="doc-icon wbdv-row wbdv-icon">
             ENTR 1201 The Entrepreneurial Universe
         </div>
         <div class="col-sm-1 d-none d-lg-flex">
@@ -172,14 +172,14 @@
                 Edit
             </button>
         </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
+        <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-owner">
             <i>Jack Michaud</i>
         </div>
-        <div class="col-sm-2 course-info d-none d-lg-flex">
+        <div class="col-sm-2 course-info d-none d-lg-flex wbdv-row wbdv-modified-date">
             <i>Yesterday 11:03 PM</i>
         </div>
         <div class="col-sm-2">
-            <button class="btn btn-delete-course" type="button">
+            <button class="btn btn-delete-course wbdv-row wbdv-button wbdv-delete" type="button">
                 <img src="../css/x.svg">
             </button>
         </div>
