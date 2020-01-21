@@ -16,6 +16,17 @@ body {
 	width: 75%;
 }
 
+.cancel {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-self: center;
+	align-items: left;
+	border-radius: 10px;
+	color: white;
+	width: 75%;
+}
+
 form {
 	width: 100%;
 	margin: 5%;
@@ -35,11 +46,11 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
+a:hover, a:active, a:focus {
 	color: rgba(195, 15, 15, 1);
 }
 
-.btn-primary {
+.btn-primary, .btn-cancel {
 	background-color: rgba(195, 15, 15, 1);
 	color: white;
 	outline-color: rgba(195, 15, 15, 1);
@@ -50,6 +61,10 @@ a:hover {
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
 	background-color: rgba(195, 15, 15, 1);
+}
+
+.btn-cancel:hover, .btn-cancel:active, .btn-cancel:focus {
+	color: white;
 }
 
 .btn {
@@ -89,7 +104,7 @@ a:hover {
 	body {
 		margin: 5% 5%;
 	}
-	.sign-in {
+	.sign-in, .cancel {
 		width: 100%;
 	}
 }
