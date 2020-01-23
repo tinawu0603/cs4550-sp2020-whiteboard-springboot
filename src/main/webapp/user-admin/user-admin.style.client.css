@@ -1,0 +1,82 @@
+body {
+    margin: 10px 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+th {
+    width: 20%;
+}
+
+/* table styles */
+.user-admin-table {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 10px;
+    border-color: rgba(3, 12, 84, 0.8);
+    border-style: solid;
+    border-width: thick;
+    margin: 10px auto;
+}
+
+/* navbar styles */
+.btn-hamburger {
+    padding: 10px;
+    z-index: 1;
+}
+
+.nav-item {
+    margin: 10px 10px;
+}
+
+.profile-link {
+    font-size: 120%;
+}
+
+.profile-link:hover, .profile-link:active, .profile-link:focus {
+    color: white;
+}
+
+.btn-profile {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(195, 15, 15, 1);
+}
+
+.navbar-nav {
+    z-index: 1;
+}
+
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus, .navbar-brand {
+	color: white;
+}
+
+.navbar {
+	background-color: rgba(3, 12, 84, 0.8);
+	color: white;
+	border-radius: 10px;
+    width: 100%;
+}
+
+.user-admin-title, .user-admin-title:hover, .user-admin-title:active, .user-admin-title:focus {
+	background-color: rgba(195, 15, 15, 1);
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand.abs {
+        z-index: 0;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
