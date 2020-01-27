@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet" />
     <link href="../css/icon.png" rel="icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../user/user.service.client.js"></script>
+    <script src="../services/user.service.client.js"></script>
     <script src="user-admin.controller.client.js"></script>
 </head>
 
@@ -60,21 +60,28 @@
                     <td><input id="lastNameFld" class="form-control" placeholder="Last Name" /></td>
                     <td>
                         <select id="roleFld" class="form-control">
-                            <option value="FACULTY">Faculty</option>
-                            <option value="STUDENT">Student</option>
-                            <option value="ADMIN">Admin</option>
+                            <option value="Faculty">Faculty</option>
+                            <option value="Student">Student</option>
+                            <option value="Admin">Admin</option>
                         </select>
                     </td>
                     <td>
                         <span class="float-right" style="white-space: nowrap">
-                            <i class="fa-2x fa fa-search wbdv-search"></i> <i class="fa-2x fa fa-plus wbdv-create"></i>
-                            <i class="fa-2x fa fa-check wbdv-update"></i>
+                            <button id="searchBtn" type="button" class="btn wbdv-search">
+                                <img src="../css/search-black.svg">
+                            </button>
+                            <button id="createBtn" type="button" class="btn wbdv-create">
+                                <img src="../css/plus-black.svg">
+                            </button>
+                            <button id="updateBtn" type="button" class="btn wbdv-update">
+                                <img src="../css/check-black.svg">
+                            </button>
                         </span>
                     </td>
                 </tr>
             </thead>
-            <tbody class="wbdv-tbody">
-                <tr class="wbdv-template wbdv-user wbdv-hidden">
+            <tbody id="tableBody" class="wbdv-tbody">
+                <tr id="userRowTemplate" class="wbdv-template wbdv-user wbdv-hidden">
                     <td class="wbdv-username">ada</td>
                     <td>&nbsp;</td>
                     <td class="wbdv-first-name">Ada</td>
@@ -82,8 +89,12 @@
                     <td class="wbdv-role">Faculty</td>
                     <td class="wbdv-actions">
                         <span class="float-right">
-                            <i id="wbdv-remove" class="fa-2x fa fa-times wbdv-remove"></i>
-                            <i id="wbdv-edit" class="fa-2x fa fa-pencil wbdv-edit"></i>
+                            <button id="removeBtn" type="button" class="btn wbdv-remove">
+                                <img src="../css/x-black.svg">
+                            </button>
+                            <button id="editBtn" type="button" class="btn wbdv-edit">
+                                <img src="../css/edit.svg">
+                            </button>
                         </span>
                     </td>
                 </tr>
@@ -93,7 +104,6 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="user-admin.controller.client.js"></script>
 </body>
 
 </html>
