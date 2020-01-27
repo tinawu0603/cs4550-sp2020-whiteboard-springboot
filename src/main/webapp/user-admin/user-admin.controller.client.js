@@ -92,6 +92,9 @@
             lastname: $lastNameFld.val(),
             role: $roleFld.val(),
         }
+        if (updatedUser.username == "") {
+            return;
+        }
         $usernameFld.val("");
         $passwordFld.val("");
         $firstNameFld.val("");
