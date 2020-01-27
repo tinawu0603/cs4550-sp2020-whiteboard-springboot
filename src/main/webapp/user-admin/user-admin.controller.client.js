@@ -74,12 +74,10 @@
     }
 
     // Deletes a user
-    function deleteUser(user) {
-        const index = users.indexOf(user)
-        userService.deleteUser(user._id)
+    function deleteUser(userId) {
+        userService.deleteUser(userId)
             .then(response => {
-                users.splice(index, 1)
-                renderUsers(users)
+                findAllUsers()
             })
     }
 
@@ -118,7 +116,6 @@
 
     // Iterates over given users and populates the table
     function renderUsers(users) {
-        console.log(users)
         $tbody.empty();
         $usernameFld.val("");
         $passwordFld.val("");
@@ -128,7 +125,6 @@
 
         for (let u in users) {
             user = users[u]
-            console.log("user ".concat(u, " ", user.username))
 
             const userClone = $userRowTemplate.clone();
             userClone.removeClass('wbdv-hidden');
@@ -155,15 +151,14 @@
             let newRemoveBtn = $("#removeBtn-".concat(user._id));
             let newEditBtn = $("#editBtn-".concat(user._id));
 
-            newRemoveBtn.click(() => {
-                deleteUser(user.clone())
+            newRemoveBtn.click(function () {
+                deleteUser($(this).attr('id').slice(10))
             });
 
             newEditBtn.click(function () {
                 curUserId = $(this).attr('id').slice(8)
                 findUserById();
             });
-
         }
     }
     $(main)
