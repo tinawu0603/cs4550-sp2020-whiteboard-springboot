@@ -1,6 +1,6 @@
 (function () {
     var $usernameFld, $passwordFld;
-    var $removeBtn, $editBtn, $updateBtn, $createBtn;
+    var $removeBtn, $editBtn, $updateBtn, $createBtn, $searchBtn, $cancelBtn;
     var $firstNameFld, $lastNameFld, $roleFld;
     var $userRowTemplate, $tbody;
     var userService = new AdminUserServiceClient();
@@ -22,6 +22,10 @@
         $updateBtn = $("#updateBtn")
         $updateBtn.click(updateUser)
         $editBtn = $("#editBtn")
+        $searchBtn = $("#searchBtn")
+        $searchBtn.click(searchUser)
+        $cancelBtn = $("#cancelBtn")
+        $cancelBtn.click(findAllUsers)
         $userRowTemplate = $("#userRowTemplate")
         $tbody = $("#tableBody")
 
@@ -31,6 +35,32 @@
                 users = theusers
                 renderUsers(theusers)
             })
+    }
+
+    function searchUser() {
+        let users = []
+        userService.findAllUsers().then(response => {
+            let filteredUsers = response.filter(filterUser);
+            renderUsers(filteredUsers);
+        });
+    }
+
+    function filterUser(user) {
+        const protoUser = {
+            username: $usernameFld.val(),
+            password: $passwordFld.val(),
+            firstname: $firstNameFld.val(),
+            lastname: $lastNameFld.val(),
+            role: $roleFld.val(),
+        }
+        let matches = false;
+        Object.keys(protoUser).forEach(function (key, index) {
+            if (protoUser[key] != "" && user[key].includes(protoUser[key])) {
+                matches = true;
+                return true;
+            }
+        });
+        return matches;
     }
 
     // Creates a user object and update list of users on server response
