@@ -41,11 +41,13 @@
         let users = []
         userService.findAllUsers().then(response => {
             let filteredUsers = response.filter(filterUser);
+            console.log(filteredUsers)
             renderUsers(filteredUsers);
         });
     }
 
     function filterUser(user) {
+        console.log(users)
         const protoUser = {
             username: $usernameFld.val(),
             password: $passwordFld.val(),
@@ -53,11 +55,10 @@
             lastname: $lastNameFld.val(),
             role: $roleFld.val(),
         }
-        let matches = false;
+        let matches = true;
         Object.keys(protoUser).forEach(function (key, index) {
-            if (protoUser[key] != "" && user[key].includes(protoUser[key])) {
-                matches = true;
-                return true;
+            if (protoUser[key] != "" && !(user[key].includes(protoUser[key]))) {
+                matches = false;
             }
         });
         return matches;
