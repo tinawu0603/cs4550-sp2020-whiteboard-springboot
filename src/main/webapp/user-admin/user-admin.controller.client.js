@@ -41,13 +41,11 @@
         let users = []
         userService.findAllUsers().then(response => {
             let filteredUsers = response.filter(filterUser);
-            console.log(filteredUsers)
             renderUsers(filteredUsers);
         });
     }
 
     function filterUser(user) {
-        console.log(users)
         const protoUser = {
             username: $usernameFld.val(),
             password: $passwordFld.val(),
