@@ -16,8 +16,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md nav-fill">
-        <div class="navbar-brand abs mx-auto">
+    <nav class="navbar navbar-expand-lg nav-fill">
+        <div class="navbar-brand mr-auto">
             <img src="../css/icon.png" alt="">
             Whiteboard
         </div>
@@ -35,13 +35,18 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <span>
+                    <form class="form-inline">
                         <input type="text" id="new-course-input" class="input-lg wbdv-field wbdv-new-course"
                             aria-describedby="widget-input" placeholder="New Course Title">
                         <button type="button" class="btn-plus btn wbdv-button wbdv-add-course">
                             <img src="../css/plus.svg" alt="">
                         </button>
-                    </span>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <a href="../user-admin/user-admin.template.client.html" class="nav-link admin-link btn btn-admin"
+                        role="button">User Admin
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="../profile/profile.template.client.html" class="nav-link profile-link btn btn-profile"
