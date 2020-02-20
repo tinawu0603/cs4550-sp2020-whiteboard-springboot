@@ -1,13 +1,15 @@
 package com.example.whiteboard.models;
 
+import java.util.Date;
+
 public class Widget {
-    private String id;
+    private String id = Long.toString(new Date().getTime());
     private String title;
     private WidgetType type = WidgetType.HEADING;
     private String topicId;
     private Integer order; // index of this widget in widget list
     // optional fields for specific widget types
-    private int size = 2; // Useful to represent size of widget (heading 2)
+    private int size = 1; // Useful to represent size of widget (heading 2)
     private String text; // Useful for heading text, paragraph text, etc.
     private String src; // Useful for absolute or relative URL for resource
     private Integer width; // Useful for image or youtube width
@@ -15,8 +17,7 @@ public class Widget {
     private String value; // arbitrary initial value
 
     // Constructor
-    public Widget(String id, String title, WidgetType type) {
-        this.id = id;
+    public Widget(String title, WidgetType type) {
         this.title = title;
         this.type = type;
     }
