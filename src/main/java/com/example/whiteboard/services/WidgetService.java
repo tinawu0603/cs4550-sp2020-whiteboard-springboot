@@ -27,6 +27,9 @@ public class WidgetService {
     // Returns widget collection for the given topic
     public List<Widget> findWidgetsForTopic(String topicId) {
         if (widgets.containsKey(topicId)) {
+            for (int i = 0; i < widgets.get(topicId).size(); i += 1) {
+                widgets.get(topicId).get(i).setOrder(i);
+            }
             return widgets.get(topicId);
         } else {
             return new ArrayList<>();
