@@ -1,9 +1,16 @@
 package com.example.whiteboard.models;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name = "widgets")
 public class Widget {
-    private String id = Long.toString(new Date().getTime());
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id = Math.toIntExact(new Date().getTime());
+
     private String title;
     private WidgetType type = WidgetType.HEADING;
     private String topicId;
@@ -26,11 +33,11 @@ public class Widget {
     }
 
     // Getters and Setters
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

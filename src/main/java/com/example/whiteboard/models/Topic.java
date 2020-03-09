@@ -1,10 +1,17 @@
 package com.example.whiteboard.models;
 
+import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
+@Entity
+@Table(name = "topics")
 public class Topic {
-    private String id = Long.toString(new Date().getTime());
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id = Math.toIntExact(new Date().getTime());
+
     private String title;
     private String description;
     private List<Widget> widgets;
@@ -15,15 +22,16 @@ public class Topic {
         this.title = title;
     }
 
-    public Topic() {}
+    public Topic() {
+    }
 
     // Getters and Setters
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
