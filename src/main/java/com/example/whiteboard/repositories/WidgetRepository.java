@@ -25,6 +25,6 @@ public interface WidgetRepository extends CrudRepository<Widget, Integer> {
     public int updateWidgetOrder(@Param("widgetId") Integer widgetId, @Param("order") Integer order);
 
     @Modifying
-    @Query("UPDATE Widget widget SET widget=:widget WHERE widgetId=:widgetId")
+    @Query("UPDATE Widget widget SET widget=:widget WHERE widget.id=:widgetId")
     public int updateWidget(@Param("widget") Widget widget, @Param("widgetId") Integer widgetId);
 }

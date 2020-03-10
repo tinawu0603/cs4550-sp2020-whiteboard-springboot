@@ -1,6 +1,8 @@
 package com.example.whiteboard.repositories;
 
 import com.example.whiteboard.models.Topic;
+
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
@@ -16,5 +18,9 @@ public interface TopicRepository extends CrudRepository<Topic, Integer> {
     public Topic findTopicById(@Param("topicId") Integer topicId);
 
     @Query("SELECT topic FROM Topic topic WHERE topic.lessonId=:lessonId")
-    public List<Topic> findTopicsForLesson(@Param("topicId") String topicId);
+    public List<Topic> findTopicsForLesson(@Param("topicId") Integer lessonId);
+
+    @Modifying
+    @Query("UPDATE Topic topic SET topic=:topic WHERE topic.id=:topicId")
+    public int updateTopic(@Param("topic") Topic topic, @Param("topicId") Integer topicId);
 }

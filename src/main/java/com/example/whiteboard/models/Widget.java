@@ -13,7 +13,10 @@ public class Widget {
 
     private String title;
     private WidgetType type = WidgetType.HEADING;
-    private Integer topicId;
+
+    @ManyToOne
+    private Topic topic;
+
     private Integer order; // index of this widget in widget list
     // optional fields for specific widget types
     private int size = 1; // Useful to represent size of widget (heading 2)
@@ -57,12 +60,12 @@ public class Widget {
         this.type = type;
     }
 
-    public Integer getTopicId() {
-        return topicId;
+    public Topic getTopic() {
+        return topic;
     }
 
-    public void setTopicId(Integer topicId) {
-        this.topicId = topicId;
+    public void setTopic(Topic topic) {
+        this.topic = topic;
     }
 
     public int getSize() {

@@ -14,6 +14,8 @@ public class Topic {
 
     private String title;
     private String description;
+
+    @OneToMany(mappedBy = "topic", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Widget> widgets;
     private Integer lessonId;
 
