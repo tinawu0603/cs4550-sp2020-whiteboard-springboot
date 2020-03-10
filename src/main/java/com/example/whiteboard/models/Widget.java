@@ -13,7 +13,7 @@ public class Widget {
 
     private String title;
     private WidgetType type = WidgetType.HEADING;
-    private String topicId;
+    private Integer topicId;
     private Integer order; // index of this widget in widget list
     // optional fields for specific widget types
     private int size = 1; // Useful to represent size of widget (heading 2)
@@ -57,11 +57,11 @@ public class Widget {
         this.type = type;
     }
 
-    public String getTopicId() {
+    public Integer getTopicId() {
         return topicId;
     }
 
-    public void setTopicId(String topicId) {
+    public void setTopicId(Integer topicId) {
         this.topicId = topicId;
     }
 

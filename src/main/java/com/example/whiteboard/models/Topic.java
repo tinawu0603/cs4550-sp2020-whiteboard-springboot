@@ -15,7 +15,7 @@ public class Topic {
     private String title;
     private String description;
     private List<Widget> widgets;
-    private String lessonId;
+    private Integer lessonId;
 
     // Constructor
     public Topic(String title) {
@@ -59,11 +59,11 @@ public class Topic {
         this.widgets = widgets;
     }
 
-    public String getLessonId() {
+    public Integer getLessonId() {
         return lessonId;
     }
 
-    public void setLessonId(String lessonId) {
+    public void setLessonId(Integer lessonId) {
         this.lessonId = lessonId;
     }
 }
