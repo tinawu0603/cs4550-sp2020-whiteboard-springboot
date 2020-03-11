@@ -32,6 +32,11 @@ public class WidgetService {
         return widgetRepo.save(widget);
     }
 
+    // Returns all widgets
+    public List<Widget> findAllWidgets() {
+        return widgetRepo.findAllWidgets();
+    }
+
     // Returns widget collection for the given topic
     public List<Widget> findWidgetsForTopic(Integer topicId) {
         return widgetRepo.findWidgetsForTopic(topicId);
