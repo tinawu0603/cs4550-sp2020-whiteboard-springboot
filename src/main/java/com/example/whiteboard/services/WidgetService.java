@@ -23,11 +23,12 @@ public class WidgetService {
     // the given topic
     public Widget createWidget(Integer topicId, Widget widget) {
         widget.setTopic(topicRepo.findTopicById(topicId));
+        widget.setSize(1);
         List<Widget> widgetList = this.findWidgetsForTopic(topicId);
         if (widgetList.size() <= 0) {
-            widget.setOrder(0);
+            widget.setwidgetOrder(0);
         } else {
-            widget.setOrder(widgetList.size());
+            widget.setwidgetOrder(widgetList.size());
         }
         return widgetRepo.save(widget);
     }
@@ -60,7 +61,7 @@ public class WidgetService {
     // Return the new list of widgets for this topic
     public List<Widget> updateWidgetUp(Widget widget) {
         int topicId = widget.getTopic().getId();
-        int order = widget.getOrder();
+        int order = widget.getwidgetOrder();
         List<Widget> widgetList = widgetRepo.findWidgetsForTopic(topicId);
         // if there are widgets in this topic and the widget is not the highest
         if (widgetList.size() > 0 && order > 0) {
@@ -79,7 +80,7 @@ public class WidgetService {
     // Returns the new list of widgets for this topic
     public List<Widget> updateWidgetDown(Widget widget) {
         int topicId = widget.getTopic().getId();
-        int order = widget.getOrder();
+        int order = widget.getwidgetOrder();
         List<Widget> widgetList = widgetRepo.findWidgetsForTopic(topicId);
         // if there are widgets in this topic and the widget is not the lowest
         if (widgetList.size() > 0 && order < widgetList.size() - 1) {

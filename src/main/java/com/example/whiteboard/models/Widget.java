@@ -1,6 +1,9 @@
 package com.example.whiteboard.models;
 
 import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Date;
 
 @Entity
@@ -9,22 +12,22 @@ public class Widget {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id = Math.toIntExact(new Date().getTime());
+    private Integer id;
 
     private String title;
     private WidgetType type = WidgetType.HEADING;
 
+    @JsonIgnore
     @ManyToOne
     private Topic topic;
 
-    private Integer order; // index of this widget in widget list
-    // optional fields for specific widget types
-    private int size = 1; // Useful to represent size of widget (heading 2)
-    private String text; // Useful for heading text, paragraph text, etc.
-    private String src; // Useful for absolute or relative URL for resource
-    private Integer width; // Useful for image or youtube width
-    private Integer height; // Useful for image or youtube height
-    private String value; // arbitrary initial value
+    private Integer widgetOrder;
+    private Integer size;
+    private String text;
+    private String src;
+    private Integer width;
+    private Integer height;
+    private String value;
 
     // Constructor
     public Widget(String title, WidgetType type) {
@@ -76,12 +79,12 @@ public class Widget {
         this.size = size;
     }
 
-    public Integer getOrder() {
-        return order;
+    public Integer getwidgetOrder() {
+        return widgetOrder;
     }
 
-    public void setOrder(Integer order) {
-        this.order = order;
+    public void setwidgetOrder(Integer widgetOrder) {
+        this.widgetOrder = widgetOrder;
     }
 
     public String getText() {

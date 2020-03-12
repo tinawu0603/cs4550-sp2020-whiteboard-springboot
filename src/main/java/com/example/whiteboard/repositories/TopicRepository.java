@@ -18,7 +18,7 @@ public interface TopicRepository extends CrudRepository<Topic, Integer> {
     public Topic findTopicById(@Param("topicId") Integer topicId);
 
     @Query("SELECT topic FROM Topic topic WHERE topic.lessonId=:lessonId")
-    public List<Topic> findTopicsForLesson(@Param("topicId") Integer lessonId);
+    public List<Topic> findTopicsForLesson(@Param("lessonId") String lessonId);
 
     @Modifying
     @Query("UPDATE Topic topic SET topic=:topic WHERE topic.id=:topicId")

@@ -3,12 +3,14 @@ package com.example.whiteboard.controllers;
 import com.example.whiteboard.models.Widget;
 import com.example.whiteboard.services.WidgetService;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "*")
 public class WidgetController {
+    @Autowired
     WidgetService service = new WidgetService();
 
     @PostMapping("/api/topics/{topicId}/widgets")

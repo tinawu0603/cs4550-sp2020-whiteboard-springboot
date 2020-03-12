@@ -14,14 +14,14 @@ public interface WidgetRepository extends CrudRepository<Widget, Integer> {
     @Query("SELECT widget FROM Widget widget")
     public List<Widget> findAllWidgets();
 
-    @Query("SELECT widget FROM Widget widget WHERE widget.id=:widgetId ORDER BY widget.order")
+    @Query("SELECT widget FROM Widget widget WHERE widget.id=:widgetId ORDER BY widget.widgetOrder")
     public Widget findWidgetById(@Param("widgetId") Integer widgetId);
 
-    @Query("SELECT widget FROM Widget widget WHERE widget.topicId=:topicId")
+    @Query("SELECT widget FROM Widget widget WHERE widget.topic.id=:topicId")
     public List<Widget> findWidgetsForTopic(@Param("topicId") Integer topicId);
 
     @Modifying
-    @Query("UPDATE Widget widget SET widget.order=:order WHERE widget.id=:widgetId")
+    @Query("UPDATE Widget widget SET widget.widgetOrder=:order WHERE widget.id=:widgetId")
     public int updateWidgetOrder(@Param("widgetId") Integer widgetId, @Param("order") Integer order);
 
     @Modifying

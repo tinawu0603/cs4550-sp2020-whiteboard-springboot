@@ -5,19 +5,21 @@ import com.example.whiteboard.models.Topic;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
 @CrossOrigin(origins = "*")
 public class TopicController {
+    @Autowired
     TopicService service = new TopicService();
 
     @PostMapping("/api/lessons/{lessonId}/topics")
-    public Topic createTopic(@PathVariable("lessonId") Integer lessonId, @RequestBody Topic topic) {
+    public Topic createTopic(@PathVariable("lessonId") String lessonId, @RequestBody Topic topic) {
         return service.createTopic(lessonId, topic);
     }
 
     @GetMapping("/api/lessons/{lessonId}/topics")
-    public List<Topic> findTopicsForLesson(@PathVariable("lessonId") Integer lessonId) {
+    public List<Topic> findTopicsForLesson(@PathVariable("lessonId") String lessonId) {
         return service.findTopicsForLesson(lessonId);
     }
 

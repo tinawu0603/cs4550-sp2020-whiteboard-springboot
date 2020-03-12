@@ -10,14 +10,14 @@ public class Topic {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id = Math.toIntExact(new Date().getTime());
+    private Integer id;
 
     private String title;
     private String description;
 
     @OneToMany(mappedBy = "topic", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Widget> widgets;
-    private Integer lessonId;
+    private String lessonId;
 
     // Constructor
     public Topic(String title) {
@@ -61,11 +61,11 @@ public class Topic {
         this.widgets = widgets;
     }
 
-    public Integer getLessonId() {
+    public String getLessonId() {
         return lessonId;
     }
 
-    public void setLessonId(Integer lessonId) {
+    public void setLessonId(String lessonId) {
         this.lessonId = lessonId;
     }
 }

@@ -15,13 +15,13 @@ public class TopicService {
     TopicRepository topicRepo;
 
     // Creates new Topic with a unique ID and add to existing topics collection
-    public Topic createTopic(Integer lessonId, Topic topic) {
+    public Topic createTopic(String lessonId, Topic topic) {
         topic.setLessonId(lessonId);
         return topicRepo.save(topic);
     }
 
     // Returns topic collection for the given lesson
-    public List<Topic> findTopicsForLesson(Integer lessonId) {
+    public List<Topic> findTopicsForLesson(String lessonId) {
         return topicRepo.findTopicsForLesson(lessonId);
     }
 
